@@ -1,4 +1,4 @@
-name: Fetch posts
+name: Manual fetch posts
 on: 
  workflow_dispatch:
 jobs:
