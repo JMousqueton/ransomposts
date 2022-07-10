@@ -7,15 +7,9 @@
 </div>
 
 <p align="center">
-  <a href="https://github.com/jmousqueton/ransomposts/actions/workflows/fetch-posts.yml">
-    <img src="https://github.com/jmousqueton/ransomposts/actions/workflows/fetch-posts.yml/badge.svg" alt="ransomposts engine" />
-  </a>
-  <a href="https://github.com/jmousqueton/ransomposts/actions/workflows/codeql-analysis.yml">
-    <img src="https://github.com/jmousqueton/ransomposts/actions/workflows/codeql-analysis.yml/badge.svg" alt="ransomposts codeql analysis" />
-  </a>
-   <a href="https://github.com/JMousqueton/boamp-extractor/actions/workflows/pages/pages-build-deployment">
-    <img src="https://github.com/JMousqueton/boamp-extractor/actions/workflows/pages/pages-build-deployment/badge.svg" alt="ransomposts pag-build-deployment" />
-  </a>
+  <a href="https://github.com/jmousqueton/ransomposts/actions/workflows/fetch-posts.yml"><img src="https://github.com/jmousqueton/ransomposts/actions/workflows/fetch-posts.yml/badge.svg" alt="ransomposts engine" /></a>
+  <a href="https://github.com/jmousqueton/ransomposts/actions/workflows/codeql-analysis.yml"><img src="https://github.com/jmousqueton/ransomposts/actions/workflows/codeql-analysis.yml/badge.svg" alt="ransomposts codeql analysis" /></a>
+   <a href="https://github.com/JMousqueton/boamp-extractor/actions/workflows/pages/pages-build-deployment"><img src="https://github.com/JMousqueton/boamp-extractor/actions/workflows/pages/pages-build-deployment/badge.svg" alt="ransomposts pag-build-deployment" /></a>
 </p>
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
