@@ -23,7 +23,7 @@
 ## Roadmap
 
 | Status | Task | Version |
-|---|---|---|---|
+|---|---|---|
 | ✅ |~~Modify for my own needs~~| |
 
 #### Legend
