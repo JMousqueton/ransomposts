@@ -23,8 +23,8 @@
 ## Roadmap
 
 | Status | Task | Version |
-|---|---|---|---|
-| ✅ |~~Modify for my own needs~~| |
+|---|---|---|
+| ✅ |~~Modify for my own needs~~| 1.0.0 |
 
 #### Legend
 
