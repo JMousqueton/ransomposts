@@ -1,8 +1,9 @@
 name: Fetch posts
-on: 
+on:
   schedule:
-    - cron: '0 * * * *'
-jobs:
+    - cron: '45 */2 * * *'
+  workflow_dispatch:
+  jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
