@@ -9,10 +9,10 @@ env = Environment(
     autoescape=select_autoescape()
 )
 
-url = "https://ransomwhat.telemetry.ltd/posts"
+url = "https://raw.githubusercontent.com/jmousqueton/ransomwatch/main/posts.json"
 r = requests.get(url)
-template = env.get_template("temp1.html")
+template = env.get_template("template.html")
 ransoms = r.json()
 ransoms.reverse()
-with open('./index.html','w') as f:
+with open('./docs/index.html','w') as f:
             f.write(template.render(ransoms=ransoms,fecha=dt.now(tz=timezone.utc).strftime('%d-%b-%Y %H:%M %Z')))

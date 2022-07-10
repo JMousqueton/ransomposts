@@ -1,7 +1,7 @@
-# Posts by Ransomware Groups
+# Ransomposts is a list of posts by Ransomware Groups
 
-Ckeck this: [https://privtools.github.io/ransomposts](https://privtools.github.io/ransomposts)
+Ckeck this: [https://ransomposts.mousqueton.io](https://ransomposts.mousqueton.io)
 
-Data is updated twice a day from [https://ransomwatch.telemetry.ltd/](https://ransomwatch.telemetry.ltd/) 
+Data is updated every two hours from [https://ransomwatch.mousqueton.io/](https://ransomwatch.mousqueton.io/) 
 
-Thanks to Ransomwatch, a public project in [https://github.com/joshhighet/ransomwatch](https://github.com/joshhighet/ransomwatch)
+[Ransomwatch](https://github.com/jmousqueton/ransomwatch) is a fork from [Joshhighet](https://github.com/joshhighet/ransomwatch)
