@@ -1,7 +1,7 @@
 name: Fetch posts
 on: 
   schedule:
-    - cron: '33 6,12,18 * * *'
+    - cron: '0 */2 * * *'
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
@@ -15,13 +15,13 @@ jobs:
         run: |
           pip3 install -r requirements.txt
           python3 getposts.py
-          git config user.name "Vigilante de posts"
+          git config user.name "𝚌𝚛𝚘𝚗𝚋𝚘𝚝 🤖"
           git config user.email "actions@users.noreply.github.com"
-          git add index.html
+          git add docs/index.html
           DATE=$(date -Iseconds)
           git commit --message="Posts fetch on $DATE"
-      - name: Hace el «push»
+      - name: Make the «push»
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-      - run: echo "🍏 This job's status is ${{ job.status }}."
+      - run: echo "This job's status is ${{ job.status }}."
