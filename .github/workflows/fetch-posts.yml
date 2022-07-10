@@ -24,4 +24,4 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-      - run: echo "🍏 This job's status is ${{ job.status }}."
+      - run: echo "🤖 This job's status is ${{ job.status }}."
