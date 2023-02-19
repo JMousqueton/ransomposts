@@ -41,13 +41,15 @@
       data-search="true"
       data-show-export="true"
       >
+        <col style="width:20%">
+	      <col style="width:20%">
+	      <col style="width:20%">
         <col style="width:40%">
-	      <col style="width:30%">
-	      <col style="width:30%">
         <thead>
           <th>Post</th>
           <th>Group</th>
           <th>Date</th>
+          <th>Description</th>
         </thead>
         <tbody>
           {% for item in ransoms %}
@@ -55,6 +57,7 @@
             <td><a href="https://www.google.com/search?q={{item.post_title}}">{{item.post_title}}</a></td>
             <td><a href="http://{{item.group_fqdn}}">{{item.group_name}}</a></td>
             <td>{{item.discovered}}</td>
+            <td>{{item.description}}</td>
           </tr>
           {% endfor %}
         </tbody>
