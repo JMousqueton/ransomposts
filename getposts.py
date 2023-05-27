@@ -21,7 +21,7 @@ for group in groups_raw:
             break
     
 
-url = ""https://data.ransomware.live/posts.json"
+url = "https://data.ransomware.live/posts.json"
 r = requests.get(url)
 template = env.get_template("template.html")
 ransoms = r.json()
