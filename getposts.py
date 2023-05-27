@@ -9,7 +9,7 @@ env = Environment(
     autoescape=select_autoescape()
 )
 
-url = "https://raw.githubusercontent.com/jmousqueton/ransomwatch/main/groups.json"
+url = "https://data.ransomware.live/groups.json"
 r = requests.get(url)
 groups_raw = r.json()
 groups ={}
@@ -21,7 +21,7 @@ for group in groups_raw:
             break
     
 
-url = "https://raw.githubusercontent.com/jmousqueton/ransomwatch/main/posts.json"
+url = ""https://data.ransomware.live/posts.json"
 r = requests.get(url)
 template = env.get_template("template.html")
 ransoms = r.json()
